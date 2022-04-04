@@ -49,6 +49,7 @@ function finaLizarJuego() {
     btnReset.textContent = "iniciar el juego de nuevo";
     document.body.append(btnReset);
     btnReset.addEventListener("click", reiniciar);
+    padres.appendChild(btnReset);
 }
 
 function reiniciar() {

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+body{
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    font-family: 'Rubik Glitch', cursive;
+}
+p{
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+.adivina{
+    font-family: 'Alumni Sans Inline One', cursive;
+    padding-top: 4rem;
+    font-size: 20px;
+    font-family: 'Rubik Glitch', cursive;
+}
+#btnAdivinar{
+    font-family: 'Rubik Glitch', cursive;
+    background-color: #865ba3;
+}
