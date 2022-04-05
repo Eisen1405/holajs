@@ -3,18 +3,19 @@ const Marcos = document.getElementById("Marcos");
 const Lucas = document.getElementById("Lucas");
 const Juan = document.getElementById("Juan");
 
+const voto = document.getElementById("voto")
 let candidato1 = 0;
 let candidato2 = 0;
 let candidato3 = 0;
 let candidato4 = 0;
 
-let voto;
+let Voto ;
 
 for (let i = 1; i < 30; i++) 
 {
 
-    voto = ("Ingrese el numero del candidato de su preferencia:\n1. Mateo. \n2. Marcos.\n3. Lucas.\n4. Juan.");
-    switch (voto) {
+    Voto = (prompt("Ingrese el numero del candidato de su preferencia:\n1. Mateo. \n2. Marcos.\n3. Lucas.\n4. Juan."));
+    switch (Voto ) {
         case "1":
             candidato1++;
             break;
@@ -51,5 +52,3 @@ else
 {
     $mensaje = "No hay ganador";
 }
-
-alert($mensaje);
